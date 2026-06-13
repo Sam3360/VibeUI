@@ -66,3 +66,7 @@ Advanced Usage
 # License
 
 Vibe is released under the MIT License.
+
+--- 
+## Author
+Created and maintained by **Samarth Chugh**, a student at **Arya Vidya Mandir (AVM), Bandra East**.
