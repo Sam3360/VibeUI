@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibeUI"
+version = "2.0.0"
+description = "A beginner-friendly, professional Python GUI library built on Tkinter"
+readme = "README.md"
+authors = [
+    { name = "Samarth Chugh", email = "iforgot3360@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["gui", "tkinter", "beginner", "education", "ui", "widgets", "desktop"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Education",
+]
+
+[project.optional-dependencies]
+images = ["pillow>=9.0"]
+
+[project.urls]
+Homepage = "https://github.com/Sam3360/VibeUI"
+Documentation = "https://github.com/Sam3360/VibeUI#readme"
+Repository = "https://github.com/Sam3360/VibeUI"
+"Bug Tracker" = "https://github.com/Sam3360/VibeUI/issues"
+Changelog = "https://github.com/Sam3360/VibeUI/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["vibe"]
